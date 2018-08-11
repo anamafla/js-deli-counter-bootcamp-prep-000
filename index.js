@@ -15,7 +15,7 @@ function currentLine(currentLine){
   let newCurrentLine = "The line is currently:";
   if (currentLine.length > 0){
     for (let i = 0; i < currentLine.length; i ++){
-     newCurrentLine = newCurrentLine.concat(` ${i+1}. ${currentLine[i]}`); 
+     newCurrentLine = newCurrentLine.concat(` ${i+1}. ${currentLine[i]},`); 
     }
     return newCurrentLine;
   } else {
