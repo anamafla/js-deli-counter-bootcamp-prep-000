@@ -14,7 +14,7 @@ function nowServing(currentLine){
 function currentLine(currentLine){
   let newCurrentLine = "The line is currently: ";
   if (currentLine.length > 0){
-    for (let i = 1; i < currentLine.length; i ++){
+    for (let i = 0; i < currentLine.length; i ++){
      newCurrentLine = newCurrentLine.concat(`${i}. ${currentLine[i]}`); 
     }
     return newCurrentLine;
