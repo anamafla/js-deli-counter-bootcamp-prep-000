@@ -12,10 +12,10 @@ function nowServing(currentLine){
 }
 
 function currentLine(currentLine){
-  let newCurrentLine = "The line is currently: ";
+  let newCurrentLine = "The line is currently:";
   if (currentLine.length > 0){
     for (let i = 0; i < currentLine.length; i ++){
-     newCurrentLine = newCurrentLine.concat(`${i}. ${currentLine[i]}`); 
+     newCurrentLine = newCurrentLine.concat(` ${i}. ${currentLine[i]}`); 
     }
     return newCurrentLine;
   } else {
